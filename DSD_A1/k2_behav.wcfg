@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_nov_k2_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_nov_k2" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1191000001fs"></ZoomEndTime>
+      <Cursor1Time time="1005000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="154"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject type="logic" fp_name="/tb_nov_k2/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_nov_k2/reset_n">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_nov_k2/R_A_out">
+      <obj_property name="ElementShortName">R_A_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">R_A_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_nov_k2/R_B_out">
+      <obj_property name="ElementShortName">R_B_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">R_B_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_nov_k2/R_O_out">
+      <obj_property name="ElementShortName">R_O_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">R_O_out[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_nov_k2/pc">
+      <obj_property name="ElementShortName">pc[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_nov_k2/WIDTH">
+      <obj_property name="ElementShortName">WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_nov_k2/DEPTH">
+      <obj_property name="ElementShortName">DEPTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DEPTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_nov_k2/DUT/DM/imm">
+      <obj_property name="ElementShortName">imm[2:0]</obj_property>
+      <obj_property name="ObjectShortName">imm[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_nov_k2/DUT/DM/wen">
+      <obj_property name="ElementShortName">wen</obj_property>
+      <obj_property name="ObjectShortName">wen</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_nov_k2/DUT/DM/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_nov_k2/DUT/DM/Din">
+      <obj_property name="ElementShortName">Din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Din[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_nov_k2/DUT/DM/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_nov_k2/DUT/DM/Dout">
+      <obj_property name="ElementShortName">Dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Dout[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_nov_k2/DUT/DM/DataMemory">
+      <obj_property name="ElementShortName">DataMemory[0:15][7:0]</obj_property>
+      <obj_property name="ObjectShortName">DataMemory[0:15][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_nov_k2/DUT/DM/width">
+      <obj_property name="ElementShortName">width[31:0]</obj_property>
+      <obj_property name="ObjectShortName">width[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_nov_k2/DUT/DM/depth">
+      <obj_property name="ElementShortName">depth[31:0]</obj_property>
+      <obj_property name="ObjectShortName">depth[31:0]</obj_property>
+   </wvobject>
+</wave_config>
